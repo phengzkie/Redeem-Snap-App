@@ -15,7 +15,6 @@ import {
 	IonCardContent
 } from '@ionic/react';
 import React from 'react';
-import ExploreContainer from '../components/ExploreContainer';
 import './Register.css';
 
 const Register: React.FC = () => {
