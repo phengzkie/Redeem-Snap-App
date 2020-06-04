@@ -11,25 +11,24 @@ import {
 	IonCardHeader,
 	IonCardTitle,
 	IonCardSubtitle,
-	IonCardContent,
 	IonModal,
 	IonMenuButton,
 	IonMenu,
 	IonList,
 	IonItem,
 	IonAvatar,
-	IonGrid,
-	IonRow,
-	IonCol
+	IonThumbnail
 } from '@ionic/react';
 
 import React, { useState } from 'react';
 import './Projects.css';
 
 const Projects: React.FC = () => {
-	const user1 = `avatar/img_avatar1.jpg`;
-	const user2 = `avatar/img_avatar2.png`;
-	const user3 = `avatar/img_avatar3.png`;
+	const user1 = 'avatar/img_avatar1.jpg';
+	const user2 = 'avatar/img_avatar2.png';
+	const user3 = 'avatar/img_avatar3.png';
+
+	const logo = 'img/logo.jpg';
 
 	const data = [
 		{
@@ -119,6 +118,9 @@ const Projects: React.FC = () => {
 							<p>Other details about the project</p>
 						</IonContent>
 					</IonModal>
+					<IonThumbnail>
+						<img src={logo} />
+					</IonThumbnail>
 					{data.map((d) => (
 						<IonCard key={d.id}>
 							<IonCardHeader>
