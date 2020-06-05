@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import {
 	IonApp,
 	IonContent,
@@ -20,7 +21,6 @@ import {
 	IonThumbnail
 } from '@ionic/react';
 
-import React, { useState } from 'react';
 import './Projects.css';
 
 const Projects: React.FC = () => {

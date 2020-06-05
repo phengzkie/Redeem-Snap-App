@@ -1,3 +1,4 @@
+import React from 'react';
 import {
 	IonContent,
 	IonHeader,
@@ -14,7 +15,7 @@ import {
 	IonCardTitle,
 	IonCardContent
 } from '@ionic/react';
-import React from 'react';
+
 import './Login.css';
 
 const Login: React.FC = () => {

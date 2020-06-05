@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import {
 	IonContent,
 	IonHeader,
@@ -15,7 +16,7 @@ import {
 	IonCardTitle,
 	IonCardContent
 } from '@ionic/react';
-import React, { useState } from 'react';
+
 import './Register.css';
 
 const Request: React.FC = () => {
