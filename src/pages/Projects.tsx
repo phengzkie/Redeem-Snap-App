@@ -119,7 +119,7 @@ const Projects: React.FC = () => {
 						</IonContent>
 					</IonModal>
 					<IonThumbnail>
-						<img src={logo} />
+						<img src={logo} alt="" />
 					</IonThumbnail>
 					{data.map((d) => (
 						<IonCard key={d.id}>
@@ -132,7 +132,7 @@ const Projects: React.FC = () => {
 								<IonItem>
 									{d.usersId.map((user) => (
 										<IonAvatar key={user}>
-											<img className="card-avatar" src={user} />
+											<img className="card-avatar" src={user} alt="" />
 										</IonAvatar>
 									))}
 								</IonItem>
